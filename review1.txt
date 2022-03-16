@@ -1,0 +1,25 @@
+Review Exercise 1 about 40 mins until 2:50
+=================
+This is a chance to work with TypeScript/ECMAScript in a mini project.
+Tackle this however you like, the point is for you to explore using the tools
+You will load up some data into a type-safe structure, then (optionaly) sort the data and show slices of it
+you could make programatic choices (run in node) or ask the user in a web page (in a browser)
+
+
+Details
+-------
+In a new folder, create a .ts file for your code
+(You may wish to also make an html file to visualize your work)
+
+Get a copy of 'todos' array and make sure it is visible to your code
+(paste the array as a member of your code)
+
+Write an interface to match the types of a 'todo' member
+Decide how to create 'job' instances, which are derived from one 'todo' member
+(You could use an object, a class or a function)
+
+Optional
+--------
+Choose a data field to sort the entire 'todos' data set (e.g. by 'userId' or 'completed')
+Decide on a strategy to show todos for one user, then just the un-completed jobs for a user
+Try consuming 'photos.json' and showing a filtered subset in a web-page
