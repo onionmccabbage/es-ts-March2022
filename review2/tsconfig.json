@@ -4,9 +4,8 @@
             "es6",
             "dom"
         ],
-        "outDir": "dist"
+        "outDir": "dist",
+        "target":"es2020"
     },
-    "include": [
-        "src"
-    ]
+    "include": ["src"]
 }
