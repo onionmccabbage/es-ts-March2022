@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node 16",
+    "compilerOptions": {
+      "sourceMap": true,
+      "lib": [
+        "es2021",
+        "DOM"
+      ],
+      "module": "ES6",
+      "moduleResolution": "Node",
+      "outDir": "./dist/",
+      "target": "es2021",
+      "noImplicitAny": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
