@@ -1,0 +1,98 @@
+ECMAScript and Typescript
+=========================
+
+  Toby Dussek - March 16-18
+
+9:30  start
+11:00 coffee
+12:30 lunch
+3:00  tea
+4:30  end
+
+Monday
+> welcome
+- choose a folder to work in: install NodeJS - npm and install typescript globaly
+> npm install -g typescript
+> npm install -g ts-node
+- may need to npm install types for (e.g.) @angular or @react or custom...
+> Modern ECMAScript
+> Typescript why and how
+> default ts output is ES3 we can --target es2020 (or relevant version)
+> tidy way to see html pages - liveserver
+- support for older browsers etc.
+> number data type - whats new....
+q - how decide use type or interface (or class)
+> classes
+> ways to run and automate
+> begin looking at data sources... JSON etc
+> try a lab exercise...
+
+Tuesday
+> where we're at
+> the symbol data-type
+> many ways to write functions
+> generics
+> descructuring
+> is TS mainly just for type safety?
+- types or interface (or hybrid)
+- when/why you would use an Enum, Literal, Type, Interface 
+  (how to choose one over another depending on what you are doing)
+- https://webpack.js.org/guides/typescript/
+- conventions, best pratice, preference...
+> type guards
+> more on tsconfig
+> npm init
+> a fixed version of the tsconfig example
+
+Wednesday
+> interface, class, implements, extends....
+> whats the point of data-typing a structure when TS will never get to see it in live code?
+> more on classes
+> more on modules and import
+> ways to write functions....
+> other ES features: generators
+> Observables and RxJS
+- Array<T> and T[] are identical - it's a style choice
+    = we MUST use Array<T> when being generic in functions
+- back-end response has a structure, inc. a data array object[]
+    e.g. 'playableItem' has LOADS of properties 
+    - do we need to type the whole structure?
+> final lab
+- end of course feedback:
+
+
+
+
+
+	Here is the link to the feedback form: https://frameworktraining.typeform.com/to/OahhclXx 
+
+
+
+ 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
