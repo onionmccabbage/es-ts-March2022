@@ -1,6 +1,7 @@
+import Rx from './Rx.js'
 // this must be converted to js for use (tsc index.ts)
 const testData = ['people', 'planets', 'species', 'vehicles', 'starships']
-const searchBox = document.querySelector('#search') // -> <input>
+const searchBox = document.querySelector('#search') as HTMLElement // -> <input>
 const results = document.querySelector('#results')  // -> <ul>
 const notEmpty = input => !!input && input.trim().length >0
 
@@ -32,7 +33,7 @@ Rx.Observable.fromEvent(searchBox, 'keyup') // grab the event and make an Observ
     .pluck('target', 'value')
     .filter(notEmpty) // check there is actually something in the field!!
     .do( (query)=>{console.log(`Querying for ${query}`)} ) // do lets us carry out arbitrary sequential operations
-    .map( (query)=>{sendRequest(testData, query)} )
+    .map( (query)=>{return sendRequest(testData, query)} )
     .forEach( (result)=>{
         clearResults(results)
         appendResults(results, result)

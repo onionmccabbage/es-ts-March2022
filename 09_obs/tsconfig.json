@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ES6",
+            "DOM"
+        ],
+        "target":"ES2020",
+    },
+}
